@@ -5,6 +5,7 @@ const Header = () => {
     <tr>
       <td style={{fontWeight: 700, color: 'red'}}>Name</td>
       <td style={{fontWeight: 700, color: 'red'}}>Price</td>
+      <td style={{fontWeight: 700, color: 'red'}}>Stock</td>
     </tr>
   )
 }

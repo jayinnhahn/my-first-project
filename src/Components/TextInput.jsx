@@ -3,7 +3,7 @@ import React from 'react'
 const TextInput = ({value, onChange}) => {
   return (
     <div>
-      <input type="text" placeholder='Search...' value={value} onChange={onChange}></input>
+      <input style={{width: '100%'}} type="text" placeholder='Search...' value={value} onChange={onChange}></input>
     </div>
   )
 }

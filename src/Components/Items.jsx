@@ -10,7 +10,8 @@ const Items = ({items, query, showOnlyStock}) => {
     .map(item => (
         <tr key={item.id} >
             <td>{item.name}</td>
-            <td>{`$${item.price}`}</td>
+            <td style={{textAlign: 'right'}}>{`$${item.price}`}</td>
+            <td style={{display: 'flex', justifyContent: 'center'}}>{item.stock}</td>
         </tr>
     ))}
     </>
